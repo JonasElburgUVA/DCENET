@@ -277,7 +277,7 @@ def do_plots(hp, epoch, X_batch, X_pred, loss_train, loss_val, values, loss_trai
     plt.ion()
     plt.tight_layout()
     plt.show()
-    plt.pause(0.001)
+    # plt.pause(0.001)
 
     if hp.training.save_train_fig:
         plt.gcf()

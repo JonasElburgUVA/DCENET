@@ -1,4 +1,4 @@
-name: dce
+name: dce_ott
 channels:
   - pytorch
   - conda-forge
